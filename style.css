@@ -1,6 +1,11 @@
 :root{
     --main-color:rgb(255, 241, 229);
 }
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .navbar .collapse{
     padding-left: 50%;
 }
@@ -15,10 +20,14 @@ header{
 } 
 .hero .color{
     padding-left: 12%;
+    
 }
 .hero .color p{
     padding-bottom: 8%;
+    display: inline-block !important;
 }
+
 .hero{
     background-color:var(--main-color) ;
+    width: 100% !important;
 }
