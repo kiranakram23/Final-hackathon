@@ -1,0 +1,24 @@
+:root{
+    --main-color:rgb(255, 241, 229);
+}
+.navbar .collapse{
+    padding-left: 50%;
+}
+.navbar img{
+    padding-left: 7%;
+}
+header{
+    background-color: var(--main-color);
+}
+.hero .color .pink{
+    color: #F857A6 !important;
+} 
+.hero .color{
+    padding-left: 12%;
+}
+.hero .color p{
+    padding-bottom: 8%;
+}
+.hero{
+    background-color:var(--main-color) ;
+}
