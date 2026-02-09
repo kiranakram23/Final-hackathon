@@ -3,8 +3,12 @@
 }
 *{
     margin: 0;
+    background-color: var(--main-color);
     padding: 0;
     width: 100%;
+}
+body{
+    background-color: var(--main-color);
 }
 .navbar .collapse{
     padding-left: 50%;
@@ -18,16 +22,27 @@ header{
 .hero .color .pink{
     color: #F857A6 !important;
 } 
+
 .hero .color{
     padding-left: 12%;
     
 }
 .hero .color p{
     padding-bottom: 8%;
-    display: inline-block !important;
+    display: flex !important;
 }
 
 .hero{
     background-color:var(--main-color) ;
     width: 100% !important;
+}
+.hero .color img{
+    height: 3px;
+    width: 150px;
+    padding-top: 2px;
+    margin-top: 11px;
+    margin-right: 8px;
+}
+.hero .color p span{
+    margin-bottom: 10px;
 }
